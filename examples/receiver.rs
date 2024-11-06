@@ -8,10 +8,6 @@ struct Args {
     port: Option<String>,
 }
 
-//#[cfg(target_os = "linux")]
-//static COM_PATH: &str = "/dev/ttyUSB1";
-//#[cfg(target_os = "windows")]
-//static COM_PATH: &str = "COM6";
 use std::time::Duration;
 // A one second timeout
 const TIME_OUT: Duration = Duration::from_millis(1000);
